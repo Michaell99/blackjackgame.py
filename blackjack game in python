@@ -38,7 +38,3 @@ if sum(player_cards) > 21:
     print ("You are Busted! Dealer Wins")
 elif sum (player_cards) == 21:
     print ("YOU WIN YOU HAVE BLACKJACK!")
-if sum(dealer_cards) > 21:
-    print ("Dealer is Busted! Player Wins")
-elif sum (dealer_cards) == 21:
-    print ("Dealer has blackjack! you lose")
