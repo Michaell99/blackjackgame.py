@@ -31,9 +31,8 @@ while sum(player_cards) < 21:
         if sum (dealer_cards) > sum (player_cards):
             print ("Dealer Wins")
         else:
-            if sum (player_cards) > sum (dealer_cards):
-                print ("You Win!!!")
-                break
+            print ("You Win!!!")
+            break
 if sum(player_cards) > 21:
     print ("You are Busted! Dealer Wins")
 elif sum (player_cards) == 21:
